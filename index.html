@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Shop test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/essential/require.js" data-main="js/essential/main"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="panel">
+            <div class="userpanel_right">
+                <div class="ur_inner">
+                    <span>Available money :</span><input class="money_value" type="text" value="0" />
+                    <button class="change_value">Change</button>
+
+
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="work_area">
+            <div class="goods">
+
+                <button class="add_good">Add Good</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="new_item_area">
+        <div class="new_item_window">
+            <p class="new_item_caption">Fill the fields below:</p>
+            <form class="new_item_form" enctype="multipart/form-data">
+                <div>
+                    <label for="name">Name:</label>
+                    <input name="name" type="text"/>
+                </div>
+                <div>
+                    <label for="price">Price:</label>
+                    <input name="price" type="text"/>
+                </div>
+                <div>
+                    <label for="image">Image:</label>
+                    <input name="image" type="file"/>
+                </div>
+
+            </form>
+            <button class="close_window"></button>
+        </div>
+    </div>
+</body>
+</html>

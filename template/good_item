@@ -1,0 +1,19 @@
+<div class="good_item">
+    <div class="checkbox_section">
+        <input type="checkbox" />
+
+    </div>
+    <div class="image_section">
+        <img src="<%=image%>">
+
+    </div>
+    <div class="name_section">
+        <p><%=name%></p>
+
+    </div>
+    <div class="price_section">
+        <p class="price"><%=price%></p>
+        <button class="buy">Buy</button>
+    </div>
+
+</div>
